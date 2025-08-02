@@ -1,83 +1,71 @@
-# July 2025 Cohort Hackathon 1: Portfolio Challenge 🚀  
+# Misigo Vincent Portfolio - HTML Code Explanation
 
-Welcome to the **PLP Academy Portfolio Challenge!** 🎉  
+This project is a basic personal portfolio website built using HTML and CSS. It contains structured sections to showcase personal information, skills, projects, and contact details.
 
-This README.md file provides all the details you need to successfully complete and submit your project. Let’s get started! 💻  
+---
 
----  
+## 📄 Code Structure Explained
 
-## 🌟 Project Overview  
-Your challenge is to build a **personal portfolio website** that showcases your skills, background, and achievements. Your portfolio should include:  
+### 1. `<!DOCTYPE html>` and `<html>`
+Defines the document as an HTML5 webpage.
 
-1. **Programming Languages**: List the programming languages you’re proficient in.  
-2. **About Section**: Share a brief introduction about yourself, your passion, and what drives you.  
-3. **Educational Background**: Provide details of your education and include a downloadable CV.  
-4. **Interests**: Share what excites you about tech and your professional interests.  
-5. **Projects**: Include links to your projects with brief descriptions.  
-6. **Contact Form**: Make it easy for collaborators or employers to reach you.  
+### 2. `<head>`
+Includes:
+- Page title (`<title>`)
+- Character encoding (`UTF-8`)
+- Internal CSS styling using the `<style>` tag.
 
----  
+### 3. `<body>`
+Contains all the visible content of the portfolio, divided into sections:
 
-## 🛠️ Guidelines  
+---
 
-- **Skills**: Build your portfolio using HTML and CSS.  
-- **Individual Work**: This is a solo challenge—showcase your skills and creativity.
-- **Deskie Team Up**: This is you and your Deskie working together, merging your skills and creativity to come up with something great.
-- **Reference Material**: For additional details and helpful information, refer to [this document](https://docs.google.com/document/d/1v-F-tXa1dwV2w5oMkM2QzAuoFoQYZlOEuT5qeRKDTPA/edit?usp=sharing).  
-- **Submission**: Push your project to a **public GitHub repository** and complete the submission form.  
+### 🔹 Header Section
+```html
+<header>
+  <img class="profile-pic" ... />
+  <h1>...</h1>
+  <h2>...</h2>
+</header>
+Shows the profile picture on the top-right.
 
----  
+Displays my name and a short description.
 
-## 📅 Key Dates  
+The picture floats to the right using CSS.
 
-**Start Date**: July 30th, 2025, 12:00 PM EAT
-**End Date**: Aug 3rd, 2025, 12:00 PM EAT
-**Award Ceremony**: Aug 8th, 2025, 5:00 PM EAT  
+🔹 About Me Section
+<section>
+  <h2>About Me</h2>
+  <p>...</p>
+  <a href="...">Download My CV</a>
+</section>
+Introduces who I am  and what I am passionate about.
 
----  
+Includes a link to download your CV.
 
-## 💼 Example Portfolio Sections  
+🔹 Skills Section
+html
+Copy code
+<ul>...</ul>
+Lists both technical and soft skills in bullet format.
 
-### 📝 About Me  
-Hi! I’m [Your Name], a passionate web developer with a love for creating functional and beautiful web experiences.  
+🔹 Projects Section
+Describes key projects I've worked on.
 
-### 🎓 Educational Background  
-I hold a degree in [Your Degree] from [Your University].  
-**[Download My CV](link-to-your-cv)**  
+Includes a downloadable research project.
 
-### 💡 Interests  
-- **Web Development**: Exploring modern frameworks and best practices.  
-- **Tech Innovations**: Keeping up with emerging trends in technology.  
+🔹 Contact Section
+Provides email, phone number, and LinkedIn profile link.
 
-### 🛠️ Projects  
-1. **[Project 1](link-to-project1)**: A brief description of your project.  
-2. **[Project 2](link-to-project2)**: Another brief description.  
+🎨 CSS Summary
+Styles the layout, fonts, image appearance, spacing, and colors.
 
-### 📬 Contact Me  
-Feel free to reach out! [Contact Form](link-to-your-contact-form)  
+.profile-pic floats the image to the right and makes it circular.
 
----  
+section h2 adds a bottom border for visual separation.
 
-## 📁 Submission Instructions  
+Padding and margins are adjusted to reduce unwanted space.
 
-1. **Create Your Portfolio**: Build a complete portfolio website with all the required sections.  
-2. **Push to GitHub**: Upload your project to a **public GitHub repository**.  
-3. **Update README**: Ensure your README.md includes details about your portfolio.  
-4. **Submit Your Project**: Use [this form](https://forms.gle/DVvnaM5AzkXPpxYSA) to share your GitHub repo.  
+✅ Purpose
+This code is meant to create a clean and simple portfolio website using only HTML and CSS.
 
----  
-
-## 🏆 Evaluation Criteria  
-
-- **Creativity and Ingenuity (20%)**: Original ideas and standout features.  
-- **Code Quality (20%)**: Clean, readable, and efficient code.  
-- **Documentation (15%)**: Informative README and clear code comments.  
-- **Deployment (15%)**: Successfully hosted on a platform like GitHub Pages, Netlify or Vercel.  
-- **Development Process (15%)**: Effective collaboration and project management.  
-- **Technology Stack (15%)**: Usage of responsive, visually appealing tools.
-
-
----  
-
-We’re excited to see your unique creations! ✨  
-Happy coding, and good luck! 🍀  
